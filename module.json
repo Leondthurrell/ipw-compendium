@@ -1,0 +1,83 @@
+{
+    "name": "ipw-compendium",
+    "title": "The Interplanar Watch Compendium",
+    "description": "A collection of content for The Interplanar Watch.",
+    "version": "1.0.0",
+    "author": "Leond",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "ipw-creatures",
+            "label": "IPW Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "ipw-items",
+            "label": "IPW Items",
+            "path": "./packs/items.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ipw-spells",
+            "label": "IPW Spells",
+            "path": "./packs/spells.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ipw-features",
+            "label": "IPW Features",
+            "path": "./packs/features.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ipw-abilities",
+            "label": "IPW Abilities",
+            "path": "./packs/abilities.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "ipw-scenes",
+            "label": "IPW Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        },
+        {
+            "name": "ipw-journal-entries",
+            "label": "IPW Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "ipw-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro",
+            "type": "Macro"
+        },
+        {
+            "name": "ipw-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        },
+        {
+            "name": "ipw-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist",
+            "type": "Playlist"
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/Leondthurrell/ipw-compendium/main/module.json",
+    "download": "https://github.com/Leondthurrell/ipw-compendium/archive/master.zip"
+  }
